@@ -18,6 +18,7 @@ struct Node {
 };
 
 // Author : Krish Nariya
+// Function to build min-heap with data given
 // chr[] - array of unique characters
 // freq[] - array of frequencies of unique characters
 priority_queue<Node> buildMinHeap(vector<char> &chr, vector<int> &freq) {
